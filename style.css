@@ -1,3 +1,22 @@
+html {
+    font-size: 24px;
+}
+
 body {
     background-color: blue;
+}
+
+
+h1 {
+    font-size: 2rem;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+    width: auto;
+    margin: auto;
+    text-align: center;
 }
