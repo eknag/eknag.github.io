@@ -14,7 +14,7 @@ html {
     border: 2px solid;
     background-color: hsla(290,20%,60%);
     width: 50%;
-    /*margin: 0% 25% 0% 25%;*/
+    margin: 0% 25% 0% 25%;
     transition: all 100ms linear;
     font-size: 100%;
   }
