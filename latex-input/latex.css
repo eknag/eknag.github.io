@@ -1,0 +1,53 @@
+html {
+    font-size: 40px;
+  }
+  
+  body {
+    color: hsla(30,100%,10%,0.85);
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    transition: all 0.5s linear;
+  }
+  
+  #fake-submit {
+    border: 2px solid;
+    background-color: hsla(650,20%,60%);
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+    transition: all 100ms linear;
+    font-size: 100%;
+  }
+  
+  #fake-submit:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+  }
+  /*
+  h1:hover {
+    transform: scale(2);
+    content: "I'm huge!";
+  }
+  
+  h1:after{
+      content:"I'm Big";
+  }
+  
+  
+  h1:hover:after{
+      content:"I'm Huge!"  
+  }
+  
+  h2:click{
+    transform: scale(2);
+  
+  */
+  #latex-box {
+    font-size: 24px;
+    width: 40%;
+    margin: auto;
+    padding: auto;
+    overflow: hide;
+  }
+  
+  

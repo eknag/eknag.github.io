@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="./latex.js" defer></script>
+    <link href="./latex.css" rel="stylesheet">
+    
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+  </head>
+  
+  <body>
+    <h1>Simple LaTeX Input</h1>
+    <div id='input-container'>
+      <p> <textarea  name='input-text' id='input-text' col="50", row="10"> </textarea> </p>
+      <h2 id="fake-submit" onlick="modifyH1()">Submit text</h2>
+    </div>
+    <div id='latex-box'>
+      <p>Add some fun LaTeX like $$x^2 + 1 = 0$$.</p>
+    </div>
+  </body>
+</html>
