@@ -53,11 +53,14 @@ html {
 #grid {
   display: grid;
   grid-template-columns: 50% auto;
+  overflow: hide;
+  height: 80vh;
 }
 
 #left-container {
   grid-column: 1;
   border: solid;
+  
 }
   
 #right-container {
@@ -67,4 +70,5 @@ html {
  
 textarea {
   width: 80%;
+  height: 30vh;
 }
