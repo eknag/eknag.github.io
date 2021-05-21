@@ -101,11 +101,17 @@ document.getElementById('circle').onclick = buttonClicked;
 
 drawResetTimer()
 
+/*
 function foreverUpdatingBackground(){
     document.getElementById('body').style.backgroundColor = `#${randomColor()}`;
     window.setTimeout(foreverUpdatingBackground,250);
 }
 
 foreverUpdatingBackground();
+*/
+
+setInterval(() =>  {
+    document.body.style.backgroundColor = `#${randomColor()}`;
+}, 250)
 
 console.log('page initialized');
