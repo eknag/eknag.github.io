@@ -5,7 +5,7 @@ let yPos = 50;
 let positions = [[xPos,yPos]]
 let scoreResetter = 0;
 //time to reset score
-const initialResetTimer = 750;
+const initialResetTimer = 1500;
 let resetTimer = initialResetTimer;
 
 
@@ -87,7 +87,7 @@ function buttonClicked() {
 
     //update the page
     drawGame();
-    
+
     scoreResetter = window.setTimeout(resetGame, resetTimer);
 }
 
