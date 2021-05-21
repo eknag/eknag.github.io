@@ -1,14 +1,14 @@
 #circle {
     background-color: red;
-    width: 100px;
-    height: 100px;
+    width: 10vmax;
+    height: 10vmax;
     border: solid;
     border-radius: 50%;
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
+    margin-top: -5vmax;
+    margin-left: -5vmax;
 }
 
 
