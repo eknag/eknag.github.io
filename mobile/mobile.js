@@ -52,7 +52,7 @@ function buttonClicked() {
     if (scoreResetter) {
         clearTimeout(scoreResetter);
     }
-    scoreResetter = window.setTimeout(resetGame, 3000);
+    scoreResetter = window.setTimeout(resetGame, 750);
 }
 
 document.getElementById('circle').onclick = buttonClicked;
