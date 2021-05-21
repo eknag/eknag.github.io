@@ -18,6 +18,12 @@ function drawResetTimer() {
         let text = document.createTextNode(`Reset timer: ${resetTimer}ms`);
         tag.appendChild(text);
         tag.id = 'reset-timer';
+        tag.style.width = '100%';
+        tag.style.textAlign = 'center'
+        tag.style.position = 'absolute';
+        tag.style.top = '90%';
+        tag.style.left = '40%';
+
         let element = document.getElementById("body");
         element.appendChild(tag);
     }
@@ -94,3 +100,12 @@ function buttonClicked() {
 document.getElementById('circle').onclick = buttonClicked;
 
 drawResetTimer()
+
+function foreverUpdatingBackground(){
+    document.getElementById('body').style.backgroundColor = `#${randomColor()}`;
+    window.setTimeout(foreverUpdatingBackground,250);
+}
+
+foreverUpdatingBackground();
+
+console.log('page initialized');
