@@ -43,6 +43,10 @@ function drawGame(){
 }
 
 function redrawGame(){
+    window.dataLayer.push({
+        'event': 'game-over',
+        'score' : score
+    });
     score = 0;
     resetTimer = initialResetTimer;
     xPos = 50;
